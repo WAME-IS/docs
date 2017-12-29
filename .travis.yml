@@ -7,9 +7,9 @@ php:
 deploy:
   provider: script
   skip_cleanup: true
-  script: deploy.sh
+  script: .travis/deploy.sh
   on:
     branch: master
 before_install:
 - openssl aes-256-cbc -K $encrypted_776919ea4a4e_key -iv $encrypted_776919ea4a4e_iv
-  -in deploy_rsa.enc -out deploy_rsa -d
+  -in .travis/deploy_rsa.enc -out .travis/deploy_rsa -d
