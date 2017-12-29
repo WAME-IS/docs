@@ -6,7 +6,6 @@ Teraz, keď už máme všetko pripravené, povieme si, ako si nainštalovať WAM
 ```
 composer create-project wameis/sandbox:dev-master <project-name>
 ```
-
 2. Nainštalujeme si všetky závislosti, ktoré sú potrebné pre chod WAME IS:
 ```
 composer install
