@@ -3,6 +3,13 @@ php:
   - '7.1'
   - hhvm # on Trusty only
   - nightly
+  
+matrix:
+  allow_failures:
+    - php: '7.1'
+    - php: hhvm
+    - php: nightly
+  fast_finish: true  
 deploy:
   provider: script
   skip_cleanup: true
