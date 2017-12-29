@@ -1,1 +1,0 @@
-# Štruktúra WAMEx
