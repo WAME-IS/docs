@@ -1,6 +1,6 @@
 # Inštalácia
 
-Teraz, keď už máme všetko pripravené, povieme si, ako si nainštalovať WAME-IS, aby ste mohli vidieť v praxi jeho plný potenciál.
+Teraz, keď už máme všetko pripravené, povieme si, ako si nainštalovať WAME IS, aby ste mohli vidieť v praxi jeho plný potenciál.
 
 1. Stiahnime si projekt cez Composer:
 ```

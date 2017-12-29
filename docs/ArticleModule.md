@@ -1,6 +1,6 @@
 ## ArticleModule
 
-ArticleModule je jeden zo základných modulov obsiahnutý v štandardnom WAMEx balíčku. Jeho cieľom je, ako napovedá názov, správa článkov. Je aplikovateľný napríklad na osobný blog.
+Cieľom tohoto modulu je, ako napovedá názov, správa článkov. Je aplikovateľný napríklad na osobný blog.
 
 ### Komponenty
 
