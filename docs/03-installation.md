@@ -6,38 +6,35 @@ Teraz, keď už máme všetko pripravené, povieme si, ako si nainštalovať WAM
 ```
 composer create-project wameis/sandbox:dev-master <project-name>
 ```
-
-2. Nainštalujeme si všetky závislosti, ktoré sú potrebné pre chod WAME-IS:
+2. Nainštalujeme si všetky závislosti, ktoré sú potrebné pre chod WAME IS:
 ```
 composer install
 ```
 
-3. Pre pokoj duše si vymažeme dáta v temp priečinku:
-```
-composer clear
-```
+## Príprava databazy
 
-4. Následne si vygenerujeme štruktúru databázy:
-```
-php web/index.php orm:schema-tool:create
-```
+### Úprava konfiguračného súboru
+Konfiguračný súbor **config.local.neon** obsahuje všetky potrebné konfiguračné nastavenia pre dané prostredie. Na lokálnom serveri bude súbor obsahovať iné údaje ako na produkčnom serveri.
 
-5. Nastavíme si routovanie
-```
-php web/index.php router:update-default-routes
-```
+**Postup:**
+- zduplikuje sa súbor **config.local.dist.neon**, ktorý slúži ako predloha.
+- upraví sa názov zduplikovaného súboru na **config.local.neon**
+- vyplnia sa potrebné prístupové a konfiguračné údaje
 
-6. Teraz si prenesieme migrácie zo všetkých modulov do hlavného priečinka.
-```
-php web/index.php migrations:collect
-```
-
-7. Spustíme si tieto migrácie:
-```
-php web/index.php migrations:continue
-```
-
-8. Vytvoríme štandardné pozície a komponenty
-```
-composer wame:component:update
-```
+### Generovanie databazy 
+1. Vygenerujeme si schému databázy:
+    ```
+    php web/index.php orm:schema-tool:create
+    ```
+2. Vygenerujeme si štandardné routy:
+    ```
+    php web/index.php router:update-default-routes
+    ```
+3. Následne spustíme migrácie:
+    ```
+    php web/index.php migrations:continue
+    ```
+4. Vytvoríme si štandardné pozície a komponenty:
+    ```
+    composer wame:component:update
+    ```
