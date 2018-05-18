@@ -2,6 +2,9 @@
   - [Zopár slov na úvod](01-introduction.md)
   - [Požiadavky](02-requirements.md)
   - [Inštalácia](03-installation.md)
+- Front-End Developer
+  - [Preťažovanie šablón](Front-End/template-override.md)
+  - [Správa pozícií](Front-End/positions-control.md)
 
 - Základné balíky
   - [AdminModule](AdminModule.md)
