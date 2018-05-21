@@ -5,6 +5,7 @@
 - Front-End Developer
   - [Preťažovanie šablón](Front-End/template-override.md)
   - [Správa pozícií](Front-End/positions-control.md)
+  - [Balíčky a závislosti](Front-End/packages-dependencies.md)
 
 - Základné balíky
   - [AdminModule](AdminModule.md)
