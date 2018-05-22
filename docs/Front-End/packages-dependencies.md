@@ -53,7 +53,7 @@ Inštaláciu balíčkov spustíme príkazom `composer install`. Príkaz `compose
 
 ## Front-end Balíčky
 
-Balíčky súvisiace s front-end spravujú pomocou nástroja [**bower**](https://bower.io).
+Balíčky súvisiace s front-end sa spravujú pomocou nástroja [**bower**](https://bower.io).
 Konfiguráciu robíme cez súbor *bower.json*
 
 

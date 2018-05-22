@@ -3,9 +3,11 @@
   - [Požiadavky](02-requirements.md)
   - [Inštalácia](03-installation.md)
 - Front-End Developer
+  - [Začíname](Front-End/get-started.md)
   - [Preťažovanie šablón](Front-End/template-override.md)
   - [Správa pozícií](Front-End/positions-control.md)
   - [Balíčky a závislosti](Front-End/packages-dependencies.md)
+  - [Nasadzovanie aplikácie](Front-End/build-deployment.md)
 
 - Základné balíky
   - [AdminModule](AdminModule.md)
