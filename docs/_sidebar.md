@@ -37,3 +37,4 @@
   - [Utils](Utils)
 
 - [Tipy a triky](04-tips-and-tricks.md)
+    - [Rychly tip](tip-n1.md)
