@@ -9,6 +9,13 @@
   - [Balíčky a závislosti](Front-End/packages-dependencies.md)
   - [Nasadzovanie aplikácie](Front-End/build-deployment.md)
 
+- Back-End Developer
+    - Entity
+        - [Zaciname](entities/01.md)
+        - [Struktura entity](entities/02.md)
+        - [Praca s entitou](entities/03.md)
+        - [Spustenie entity](entities/04.md)
+
 - Základné balíky
   - [AdminModule](AdminModule.md)
   - [ArticleModule](ArticleModule.md)
